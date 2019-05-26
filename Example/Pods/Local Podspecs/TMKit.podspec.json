@@ -18,5 +18,15 @@
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "TMKit/Classes/**/*"
+  "source_files": "TMKit/Classes/**/*.{h,m}",
+  "resource_bundles": {
+    "TMKit": [
+      "TMKit/Assets/*.xcassets"
+    ]
+  },
+  "dependencies": {
+    "Masonry": [
+
+    ]
+  }
 }

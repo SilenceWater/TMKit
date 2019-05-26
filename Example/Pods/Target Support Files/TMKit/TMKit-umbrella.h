@@ -10,6 +10,9 @@
 #endif
 #endif
 
+#import "SAGuideView.h"
+#import "SARingDistributionView.h"
+#import "TMKit.h"
 
 FOUNDATION_EXPORT double TMKitVersionNumber;
 FOUNDATION_EXPORT const unsigned char TMKitVersionString[];

@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2CDA3468229A84B500582DD6 /* classdata.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2CDA3467229A84B500582DD6 /* classdata.plist */; };
+		2CDA346E229A861900582DD6 /* TMGuideViewDemoController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CDA346C229A861800582DD6 /* TMGuideViewDemoController.m */; };
+		2CDA3471229A863400582DD6 /* TMRingDistributionDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CDA3470229A863400582DD6 /* TMRingDistributionDemoViewController.m */; };
 		4F42B2159E0C583027510DA8 /* Pods_TMKit_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F86A3D17FAF34CBD475C689 /* Pods_TMKit_Example.framework */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
@@ -38,7 +41,12 @@
 
 /* Begin PBXFileReference section */
 		0EF8EFEC3542A7CAF24026C4 /* Pods_TMKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TMKit_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		3CD64C5CFE4F6EB2FEDBC641 /* TMKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = TMKit.podspec; path = ../TMKit.podspec; sourceTree = "<group>"; };
+		2CDA3467229A84B500582DD6 /* classdata.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = classdata.plist; sourceTree = "<group>"; };
+		2CDA346C229A861800582DD6 /* TMGuideViewDemoController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TMGuideViewDemoController.m; sourceTree = "<group>"; };
+		2CDA346D229A861800582DD6 /* TMGuideViewDemoController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TMGuideViewDemoController.h; sourceTree = "<group>"; };
+		2CDA346F229A863400582DD6 /* TMRingDistributionDemoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TMRingDistributionDemoViewController.h; sourceTree = "<group>"; };
+		2CDA3470229A863400582DD6 /* TMRingDistributionDemoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TMRingDistributionDemoViewController.m; sourceTree = "<group>"; };
+		3CD64C5CFE4F6EB2FEDBC641 /* TMKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = TMKit.podspec; path = ../TMKit.podspec; sourceTree = "<group>"; };
 		534B81C24CED35C7AC4195E1 /* Pods-TMKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TMKit_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TMKit_Tests/Pods-TMKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* TMKit_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TMKit_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -59,14 +67,14 @@
 		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
-		68C2FE06AF8DE428E5B6DECC /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		68C2FE06AF8DE428E5B6DECC /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7450D6ED9D87A55ED683A5DF /* Pods-TMKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TMKit_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-TMKit_Example/Pods-TMKit_Example.release.xcconfig"; sourceTree = "<group>"; };
 		7947D09575C2B3874464E598 /* Pods-TMKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TMKit_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TMKit_Tests/Pods-TMKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9F86A3D17FAF34CBD475C689 /* Pods_TMKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TMKit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CFF97B1794562C7FF65246BD /* Pods-TMKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TMKit_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TMKit_Example/Pods-TMKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		D85DA8BD94C6648118D16AFE /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		D85DA8BD94C6648118D16AFE /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +103,33 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2CDA3469229A85E600582DD6 /* DemoList */ = {
+			isa = PBXGroup;
+			children = (
+				2CDA346A229A85E600582DD6 /* SAGuideViewDemo */,
+				2CDA346B229A85E600582DD6 /* SARingDistributionViewDemo */,
+			);
+			path = DemoList;
+			sourceTree = "<group>";
+		};
+		2CDA346A229A85E600582DD6 /* SAGuideViewDemo */ = {
+			isa = PBXGroup;
+			children = (
+				2CDA346D229A861800582DD6 /* TMGuideViewDemoController.h */,
+				2CDA346C229A861800582DD6 /* TMGuideViewDemoController.m */,
+			);
+			path = SAGuideViewDemo;
+			sourceTree = "<group>";
+		};
+		2CDA346B229A85E600582DD6 /* SARingDistributionViewDemo */ = {
+			isa = PBXGroup;
+			children = (
+				2CDA346F229A863400582DD6 /* TMRingDistributionDemoViewController.h */,
+				2CDA3470229A863400582DD6 /* TMRingDistributionDemoViewController.m */,
+			);
+			path = SARingDistributionViewDemo;
+			sourceTree = "<group>";
+		};
 		6003F581195388D10070C39A = {
 			isa = PBXGroup;
 			children = (
@@ -132,6 +167,7 @@
 		6003F593195388D20070C39A /* Example for TMKit */ = {
 			isa = PBXGroup;
 			children = (
+				2CDA3469229A85E600582DD6 /* DemoList */,
 				6003F59C195388D20070C39A /* TMAppDelegate.h */,
 				6003F59D195388D20070C39A /* TMAppDelegate.m */,
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
@@ -139,6 +175,7 @@
 				6003F5A6195388D20070C39A /* TMViewController.m */,
 				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
+				2CDA3467229A84B500582DD6 /* classdata.plist */,
 				6003F594195388D20070C39A /* Supporting Files */,
 			);
 			name = "Example for TMKit";
@@ -208,7 +245,6 @@
 				6003F587195388D20070C39A /* Frameworks */,
 				6003F588195388D20070C39A /* Resources */,
 				C3A6F4830BEF4BF48AAC476E /* [CP] Embed Pods Frameworks */,
-				87DC555A01B0CD450F3C0233 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -227,8 +263,6 @@
 				6003F5AA195388D20070C39A /* Sources */,
 				6003F5AB195388D20070C39A /* Frameworks */,
 				6003F5AC195388D20070C39A /* Resources */,
-				1157796DA1FA7AB8B9B7A268 /* [CP] Embed Pods Frameworks */,
-				13EEEE3BACD71FF1F4E18210 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -260,6 +294,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -279,6 +314,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2CDA3468229A84B500582DD6 /* classdata.plist in Resources */,
 				873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */,
 				71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
@@ -297,36 +333,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		1157796DA1FA7AB8B9B7A268 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TMKit_Tests/Pods-TMKit_Tests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		13EEEE3BACD71FF1F4E18210 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TMKit_Tests/Pods-TMKit_Tests-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		1BC1E4B2A47413C7D286F754 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -345,37 +351,24 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		87DC555A01B0CD450F3C0233 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TMKit_Example/Pods-TMKit_Example-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		C3A6F4830BEF4BF48AAC476E /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-TMKit_Example/Pods-TMKit_Example-frameworks.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-TMKit_Example/Pods-TMKit_Example-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework",
 				"${BUILT_PRODUCTS_DIR}/TMKit/TMKit.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Masonry.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TMKit.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TMKit_Example/Pods-TMKit_Example-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TMKit_Example/Pods-TMKit_Example-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		DC10174688EA25F8AB9E7F35 /* [CP] Check Pods Manifest.lock */ = {
@@ -403,6 +396,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2CDA3471229A863400582DD6 /* TMRingDistributionDemoViewController.m in Sources */,
+				2CDA346E229A861900582DD6 /* TMGuideViewDemoController.m in Sources */,
 				6003F59E195388D20070C39A /* TMAppDelegate.m in Sources */,
 				6003F5A7195388D20070C39A /* TMViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,

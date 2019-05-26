@@ -7,12 +7,21 @@
 //
 
 #import "TMAppDelegate.h"
+#import "TMViewController.h"
 
 @implementation TMAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
+    
+    _window = [[UIWindow alloc]initWithFrame:[UIScreen mainScreen].bounds];
+    TMViewController *vc = [TMViewController new];
+    UINavigationController *nav = [[UINavigationController alloc]initWithRootViewController:vc];
+    [_window setRootViewController:nav];
+    [_window makeKeyAndVisible];
+    _window.backgroundColor = [UIColor colorWithRed:240/255.f green:240/255.f blue:240/255.f alpha:1];
+    
     return YES;
 }
 
