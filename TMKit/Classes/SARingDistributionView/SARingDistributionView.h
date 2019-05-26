@@ -2,7 +2,7 @@
 //  SARingDistributionView.h
 //  SARingDistributionView
 //
-//  Created by 王士昌 on 2018/8/9.
+//  Created by 王士昌 on 2019/5/21.
 //  Copyright © 2018年 冰凝城下. All rights reserved.
 //
 

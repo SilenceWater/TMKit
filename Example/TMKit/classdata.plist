@@ -9,6 +9,8 @@
 			<key>className</key>
 			<string>TMGuideViewDemoController</string>
 		</dict>
+	</array>
+	<array>
 		<dict>
 			<key>titleName</key>
 			<string>环形分布图</string>
@@ -19,21 +21,7 @@
 	<array>
 		<dict>
 			<key>titleName</key>
-			<string>tp</string>
-			<key>className</key>
-			<string>UIViewController</string>
-		</dict>
-	</array>
-	<array>
-		<dict>
-			<key>titleName</key>
 			<string>temp</string>
-			<key>className</key>
-			<string>UIViewController</string>
-		</dict>
-		<dict>
-			<key>titleName</key>
-			<string>temp2</string>
 			<key>className</key>
 			<string>UIViewController</string>
 		</dict>
